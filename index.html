@@ -161,7 +161,7 @@ p{color:var(--warna-teks);font-size:16px;font-weight:400;line-height:1.4em;margi
   function ngetik2() {if(ai<katangetik2.length){kalimatc.innerHTML += katangetik2.charAt(ai);ai++;setTimeout(ngetik2,100);} if(ai==katangetik2.length){kalimatc.style.animation="rto 1s infinite alternate";setTimeout(stakhir,1000);}}
   function sbakhir(){kalimatc.style = "opacity:1;transform: scale(1);margin-top:30px";Bn.style.display="none";} 
   function stakhir(){tmbl.innerHTML="continuar";tmbl.style="font-size:12px";Tombol.style="margin-top:10px;opacity:1;transform: scale(1)";ftom=5;fungsi=0;}
-  async function menuju(){await swals.fire('continuar', 'tenho muito a dizer ainda meu amor, sim!', 'success');window.location = "index3.html" ;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";} setTimeout(showDiv,100);
+  async function menuju(){await swals.fire('continuar', 'tenho muito a dizer ainda meu amor, sim!', 'success');window.location = "https://reioni.github.io/carta-de-amor/index3.html" ;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";} setTimeout(showDiv,100);
   async function jawab(){setTimeout(tunjukkan,2222);setInterval(createHeart,200);bodyblur.style="opacity:.5;animation:none";beneranblur.style="-webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px)";wallpaper.style="transform: scale(1)";Tombol.style="opacity:0;transform: scale(.1);";setTimeout(sbakhir,3000);setTimeout(ngetik2,3100);otomatis2();}
 
   flag=1;flagg=1;fungsi=0;
